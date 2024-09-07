@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <div>
       <h1>Welcome to the Home Page</h1>
-      <Quiz1 />
+      {/* <Quiz1 />
       <Quiz2 />
       <Quiz3 />
-      <Quiz4 />
+      <Quiz4 /> */}
       <ProductTable />
     </div>
   );
