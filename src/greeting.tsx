@@ -29,4 +29,4 @@ greeting({
     format: "Default"
 });
 
-greeting({ name: "Charlie", age: 18, format: "test_error" })
+// greeting({ name: "Charlie", age: 18, format: "test_error" })
