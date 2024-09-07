@@ -1,7 +1,7 @@
 interface GreetingOptions {
     name: string;
     age: number;
-    format: "Default" | "Table";
+    format?: "Default" | "Table";
 }
 
 function greeting(options: GreetingOptions): void {
@@ -28,5 +28,7 @@ greeting({
     age: 25,
     format: "Default"
 });
+
+greeting({ name: "Charlie", age: 18 })
 
 // greeting({ name: "Charlie", age: 18, format: "test_error" })
